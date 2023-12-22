@@ -16,11 +16,13 @@ function App() {
       <button onClick={handleIncrement} className="btn_increase">
         Increase
       </button>
-      <button onClick={handleDecrement} className="btn_decrease">
-        Decrease
-      </button>
+
       <button onClick={handleReset} className="btn_reset">
         Reset
+      </button>
+
+      <button onClick={handleDecrement} className="btn_decrease">
+        Decrease
       </button>
     </div>
   );
